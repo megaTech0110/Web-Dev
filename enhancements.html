@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Enhancements">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="author" content="DUC ANH TRAN">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!--CSS File-->
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+
+    <body>
+        <!--Navigation Bar-->
+         <ul class= "nav-bar">
+            <!-- code for company logo -->
+            <li class="nav"> <img  class="company_logo" src = "images/logo.png" alt="logoit"> </li>
+            <!-- code for buttons -->
+            <li class="nav"> <a href="index.html" > <button class="headbtns"> Home </button> </a> </li>
+            <li class="nav"> <a href="about.html" > <button class="headbtns">About Us</button> </a></li>
+            <li class="nav"> <a href="enhancements.html" > <button class="headbtns">Enhancements</button> </a></li>
+            <li class="nav"> <a href="jobs.html"> <button class="headbtns">Positions</button></a></li>
+            <li class="nav"> <a href="apply.html" ><button class="headbtns">Apply Now</button> </a> </li>
+        </ul>
+        
+        <div id="Ehnacement_Title">
+            <h>Enhancements</h>
+        </div><hr>
+
+        <div id="enhancement_1">
+        <h1>Enhancement 1: Fixed Navigation Bar</h1>
+        <ul>
+            <li> 
+            <p>    
+                Fixed Navigation Bar is the one that maintains its position on the screen while allowing user to see different sections of a website without having to scroll the page.<br>
+                Fixed navigation bar allows webpage to be more responsive to the user interaction.<br>
+                To create fixed navigation bar use 'fixed' element for 'position' value.<br>
+            </p>
+            </li>
+            <div id="Code_1">
+            <li>Code:
+                <p>CSS File:</p>
+            <pre>
+            .nav-bar {
+                overflow: hidden;
+                background-color:white;
+                position: fixed;
+                width: 100%;
+                margin-bottom: 2%;
+                top: 0%;
+                margin-top: 0%;
+              }
+             </pre>
+            <br>
+            </li>
+            <li>Link to the extension:
+            <a href="index.html" style="color:pink"> Fixed Navigation Bar</a>
+            </li>
+            <li>Sources Reference:<a href="https://www.w3schools.com/css/css_navbar_horizontal.asp"> W3schools horizontal navigation bar</a></li>
+        </ul>
+        </div>
+        </div>
+
+        <div id="enhancement_2">
+        <h2>Enhancement 2: Button Pressed Effect</h2>
+        <ul>
+            <li>
+            <p>Button Pressed Effect allow the user to experience interaction with the button on the webpage.<br>
+            Specifically this effect allow the button when clicked by the user to be move down just like buttons in real world.<br>
+            To create a button pressed down effect, we combine the 'Translate()'' method to the active part of the button in CSS along with the 'box-shadow' property.<br>
+            TranslateX() and TranslateY() method in CSS allow an element to move position with distance set before.<br>
+            The 'box-shadow' porperty adds shadow to the element.<br> </p> 
+            </li>
+            <div id="Code_2">
+            <li>Code:
+                <p>CSS File:</p>
+                <pre>
+                    #formApplyButton:active {
+                        background:rgb(82, 137, 82);
+                        
+                        box-shadow: 0 5px #777;
+                        transform: translateY(4px);      
+                        /*Move button down 4px when click it*/
+                      }
+                      
+                      #formResetButton:active {
+                        background:rgb(142, 76, 76);
+                      
+                        box-shadow: 0 5px #777;
+                        transform: translateY(4px);
+                        /*Move button down 4px when click it*/
+                      }
+                </pre>
+                <br>
+            </li>
+            <li>Link to the extension:
+            <a href="apply.html#formApplyButton" style="color:pink"> Button Transformation</a>
+            </li>
+            <li>Sources Reference:<a href="https://www.w3schools.com/howto/howto_css_animate_buttons.asp"> W3s Animated Button</a></li>
+        </ul>
+        </div>
+    </body>
+</html>

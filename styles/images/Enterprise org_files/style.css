@@ -1,0 +1,460 @@
+/*
+Filename: style.css
+Author: Quartet Group
+Created: 2023-03-13
+Last Modified: 2023-04-17
+Description: Main CSS file for COS10026 Assignment 1 Website. Links to several HTML files:
+    - index.html
+    - about.html
+    - apply.html
+    - jobs.html
+    - enhancements.html
+*/
+
+/* Home Page Styling */
+
+body {
+    background-color: white;
+    margin-top: 12%;
+    padding-left:0%;
+    margin-left: 0%;
+    padding-left: 20px;
+    background-image: url(images/background_img.jpeg);
+}
+/* style for the logo on top left of navbar */
+.company_logo{
+position: relative;
+left: 0%;
+width: 55%;
+}
+/* style for the navbar */
+.nav-bar {
+    overflow: hidden;
+    background-color:white; ;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 2%;
+    top: 0%;
+    margin-top: 0%;
+    box-shadow: rgb(149 157 165 / 30%) 0px 0px 4px;
+    margin-left: 0%;
+    padding-left: 0%;
+  }
+/* style for the navbar elements*/
+.nav {
+    float: left;
+    list-style-type: none;
+    margin-inline: 0.5%;
+  }
+/*
+.h1andai {
+    padding-top: 0%;
+    padding-inline: 0%;
+    list-style: none;
+    display: inline-block;
+    
+}
+*/
+  /* style for the buttons in navbar */
+.headbtns{
+    border-radius: 50px;
+    background-color: pink; 
+    width: 150px;
+    padding: 12px 0px;
+    border-radius: 500px;
+    font-size: 10px;
+    position: relative;
+    left: 300px;
+    right: 10px;
+    margin-top: 20%;
+}
+#apply{
+    color: #fff !important;
+    background-color: #5e03db;
+    border-radius: 200px;
+    padding: 9px 30px !important;
+    font-weight: 100 !important;
+    font-weight: 700 !important;
+    font-size: 15px;
+}
+/* style for the navbar elements*/
+#intro{
+        font-size: 400%;
+        color:tan;
+        margin-left: 0%;
+        margin-top: 2%;
+        left: 50px;
+        margin-right: 0%;
+        padding-right: 0%;
+        float: left;
+        margin-left: 4%;     
+        margin-bottom: 0%;
+}
+/* styling for changing colour for the "Delivering products and"*/
+#colourCheck{
+    color: aqua;
+}
+
+/* styling for the logo */
+.aIimage{
+        margin-top: 2%;
+        margin-left: 20%;
+        width: 30%;
+        margin-bottom: 0%;
+}
+/* styling for making the the text "Delivering products and" in-line */
+
+
+/* styling for the para below hr */
+.ourmission{
+        margin-top: 0%;
+        padding-top: 0%;
+        padding-left: 4%;
+        line-height: 30px;
+        font-size: larger;
+}
+/* styling for container with compays stats"*/
+.bottom-cont{
+        background-color: #5e03db;
+        left: 15%;
+        margin-right: 0%; 
+        cursor:copy;
+        text-align: center;
+}
+.numberStat{
+        width:17%;
+        text-align:center;
+        color: #fff !important;
+}
+.labelStat{
+        text-align: center;
+        padding: 0%;
+        color: #fff !important;
+}
+/* styling for container with compays stats"*/
+.general-info h1 {
+    
+        margin-top: 4%;
+        text-align: center;
+}
+.general-info p {
+    
+        margin-top: 2%;
+        text-align: center;
+        font-size: large;
+}
+.picInCol{
+        padding-left: 40%;
+        width: 60%;
+}
+.cols{
+            inline-size: auto;
+            padding: 50px 10px 8px 10px;
+            border-radius: 15px;
+            box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+            width: 22%;
+            margin: 0% ;
+            min-height: 1px;
+            box-sizing: inherit;
+            font-size: 16px;
+            color: #112284;
+            font-weight: 400;
+            line-height: 1.5;
+            display: inline-block;
+            background-color:aliceblue; 
+            text-align: center;      
+            padding-left: 2%;
+}
+.bottom-btn{
+        border-radius: 100px;
+        background-color: pink; 
+        width: 300px;
+        margin-top: 120px;
+        margin-left: 40%;
+        border-radius: 500px;
+        font-size: 22px;
+        position:inherit;
+        left: 500px;
+        top: 95px;
+        text-align: center;
+}
+/* styling for bulb GIF */
+
+.box-wrapper{
+    display: inline-block;
+    margin-inline: 7%;
+    list-style: none;  
+}
+.box-wrapper h2{
+    
+    margin-right: 0%;
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #333;
+    margin-left: 0%;
+    text-align: center;
+}
+.box-wrapper p {
+    width: 77%;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333 !important;
+    margin-top: 15px !important;
+    margin-right: 20%;
+    margin-left: 10%;
+    font-size: large;  
+    text-align: center;
+}
+.bulb-img{
+    list-style: none;
+    margin-left: 25%;
+    width: 5%;
+}
+
+/*   used to merge the h1 text and the apply button into one line */
+#last-cont { 
+        background-color: #5e03db;
+        margin: 0%;
+        margin-top: 6%;
+        padding: 4%;
+}
+
+#apply_btn{
+    background-color: #fff !important;
+    color: #5e03db;
+    border-radius: 200px;
+    padding: 19px 70px !important;
+    font-weight: 100 !important;
+    font-weight: 700 !important;
+    font-size: 15px;
+    position: inherit;
+    margin-left: 150%;
+}
+.bottom-list{
+    display: inline-block;
+    margin-inline: 0%;
+    list-style: none;  
+}
+#bottom-heading{
+    font-size: 50px;
+    color: #fff !important;
+}
+.endingline{
+    
+    margin-top: 20%;
+ }
+#end{
+    text-align: center;
+}
+/* Job Application Page Styling */
+
+.formHeader {
+    text-align: center;
+}
+
+#formFieldset {
+    border: 2px solid rgb(191, 225, 255);
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin-left:20%;
+    width:60%;
+}
+
+#formApplyButton {
+    padding: 5px 15px;
+    background: lightgreen;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+
+#formApplyButton:active {
+    background:rgb(82, 137, 82);
+}
+    
+#formResetButton {
+    padding: 5px 15px;
+    background: lightcoral;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+
+#formResetButton:active {
+    background:rgb(142, 76, 76);
+}
+
+#formButtons {
+    text-align: center;
+}
+
+#applyFooter {
+    text-align: center;
+}
+    
+/* jobs page styling */
+
+.j-aside {
+    border: 4px inset lightblue;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    width: 25%;
+    float: right;
+}
+
+.j-footer p {
+    display: inline-block; width: 33%;
+    text-align: center;
+}
+    
+/*Enhancement Page Style*/
+
+#Enhancement_Title{
+    text-align: center;
+    font-family: Graphik-Regular;
+    font-size: 450%;
+    font-weight:bolder;
+    color:pink;
+    margin-top:10%;
+}
+
+#enhancement_1 {
+        width: auto;
+        height:auto;
+        border:2px;
+        margin:auto;
+        margin-left:7%;
+        margin-right:10%;
+        margin-top:1%;
+        list-style: none;
+}
+
+#enhancement_1 h1{
+    text-align: left;
+    font-family: Graphik-Regular;
+    font-size: 350%;
+    font-weight:bolder;
+    margin-top:5%;
+}
+
+#Code_1{
+    width: auto;
+    height:auto;
+    padding: 5px;
+    border:2px;
+    border-radius:5px;
+    margin:auto;  
+    margin-right:8%;
+    margin-top:1%;
+    list-style: none;
+    background-color:aliceblue; 
+}
+
+#enhancement_1 pre {
+    width: auto;
+    height:auto;
+    padding: 5px;
+    border:2px ;
+    margin:auto; 
+    margin-left:5%;
+    margin-right:9%;
+    margin-top:1%;
+    list-style: none;
+    background-color:white;
+}
+
+#enhancement_2{
+    width: auto;
+    height:auto;
+    padding: 5px;
+    border:2px ;
+    margin:auto;
+    margin-left:7%;
+        margin-right:10%;
+    margin-top: 5%;
+}
+
+#Code_2{
+    width: auto;
+    height:auto;
+    padding: 5px;
+    border:2px ;
+    border-radius:5px;
+    margin:auto;  
+    margin-right:8%;
+    margin-top:3%;
+    list-style: none;
+    background-color:aliceblue;
+}
+
+#enhancement_2 pre {
+    width: auto;
+    height:auto;
+    padding: 5px;
+    border:2px;
+    margin:auto; 
+    margin-left:5%;
+    margin-right:9%; 
+    margin-top:1%;
+    list-style: none;
+    background-color:white;
+}
+
+#enhancement_2 h2{
+    text-align: left;
+    font-family: Graphik-Regular;
+    font-size: 350%;
+    font-weight:bolder;
+    margin-top:5%;
+}
+/*this is the CSS of about page */
+		
+#aboutbody  {margin: 2em;}
+#abouttable {border: 4px solid darkgrey; text-align: center; margin-left: auto; margin-right: auto; }
+#abouttable tr, #abouttable td, #abouttable th {border: 2px solid darkgrey; 
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto;}
+
+#aboutbody {background-color: white;}
+.abouth1 {color: red; }
+.abouth2 {color: red; }
+
+.abouth3 {color: purple; }
+.time {color: orange; }
+#tdays {color: green; }
+#abouttbody {color: darkblue; }
+#bio {color: lightblue; }
+#table_heading {text-align: center; color: blue; }
+
+
+
+dl { border: 3px solid darkgrey; padding: 0.5em;}
+dt {
+
+float: left; margin: auto;
+width: 40%;
+text-align: right;
+font-weight: bold; color: green; }
+dt::after {content: " :"; }
+dd {width: 55%; margin-left: 40%; }
+
+
+
+#abouttable {background-color: #F0FFFA;}
+
+#tdays {font-weight: bold; }
+
+#aboutlink {color: green; border:4px inset darkgrey; }
+
+dl {float: left; width: 50%; }
+
+#aboutphoto {float: right; margin: auto; }
+#table_heading {clear: both ; }
+
+#aboutphoto {border-style: solid; }
+
